@@ -21,8 +21,21 @@ export default {
       {
         text: 'Basic Types',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'TypeScript 类型', link: '/basis-types/typescript-types' },
+          { text: '类型注释', link: '/basis-types/type-annotations' },
+          { text: 'inference 类型', link: '/basis-types/type-inference' },
+          { text: 'number 类型', link: '/basis-types/number-type' },
+          { text: 'string 类型', link: '/basis-types/string-type' },
+          { text: 'boolean 类型', link: '/basis-types/boolean-type' },
+          { text: 'object 类型', link: '/basis-types/object-type' },
+          { text: 'array 类型', link: '/basis-types/array-type' },
+          { text: 'tuple 类型', link: '/basis-types/tuple-types' },
+          { text: 'enum 类型', link: '/basis-types/enum-types' },
+          { text: 'any 类型', link: '/basis-types/any-type' },
+          { text: 'never 类型', link: '/basis-types/never-type' },
+          { text: 'union 类型', link: '/basis-types/union-type' },
+          { text: '类型别名', link: '/basis-types/type-aliases' },
+          { text: '字符串字面类型', link: '/basis-types/string-literal-types' },
         ]
       },
       {

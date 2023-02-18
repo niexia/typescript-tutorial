@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2015",
     "module": "commonjs",
-    "outDir": "example/dist",
+    // "outDir": "example/dist",
     "sourceMap": true,
   },
   "include": ["example/**/*"]

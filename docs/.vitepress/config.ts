@@ -6,7 +6,7 @@ export default {
       // { text: 'Challenge', link: '/challenge/' },
       { text: 'playground', link: 'https://www.typescriptlang.org/play' },
       { text: 'fe tutorial', link: 'https://niexia.github.io/fe-tutorial/javascript/programming-language/' },
-      { text: 'blog', link: 'https://niexia.github.io' }
+      { text: 'blog', link: 'https://niexia.github.io' },
     ],
     sidebar: [
       {
@@ -22,8 +22,8 @@ export default {
         text: 'Basic Types',
         items: [
           { text: 'TypeScript 类型', link: '/basis-types/typescript-types' },
-          { text: '类型注释', link: '/basis-types/type-annotations' },
-          { text: 'inference 类型', link: '/basis-types/type-inference' },
+          { text: '类型注解', link: '/basis-types/type-annotations' },
+          { text: '类型推断', link: '/basis-types/type-inference' },
           { text: 'number 类型', link: '/basis-types/number-type' },
           { text: 'string 类型', link: '/basis-types/string-type' },
           { text: 'boolean 类型', link: '/basis-types/boolean-type' },
@@ -87,6 +87,9 @@ export default {
           { text: 'Getting Started', link: '/getting-started' },
         ]
       }
-    ]
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/niexia/typescript-tutorial' },
+    ],
   }
 }

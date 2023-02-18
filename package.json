@@ -1,0 +1,25 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "description": "typescript tutorial",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niexia/typescript-tutorial.git"
+  },
+  "author": "yangjin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niexia/typescript-tutorial/issues"
+  },
+  "homepage": "https://github.com/niexia/typescript-tutorial#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
+  }
+}

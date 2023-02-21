@@ -4,8 +4,9 @@ node_modules
 # vuepress build output
 .vuepress/dist
 
-# chche
-docs/.vitepress/cache
+# cache
+**/.vitepress/cache
+byted.yaml
 
 # builded product
 */dist

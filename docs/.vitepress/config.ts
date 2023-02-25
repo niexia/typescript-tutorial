@@ -32,6 +32,7 @@ export default {
           { text: 'tuple 类型', link: '/basis-types/tuple-types' },
           { text: 'enum 类型', link: '/basis-types/enum-types' },
           { text: 'any 类型', link: '/basis-types/any-type' },
+          { text: 'void 类型', link: '/basis-types/void-type' },
           { text: 'never 类型', link: '/basis-types/never-type' },
           { text: 'union 类型', link: '/basis-types/union-type' },
           { text: '类型别名', link: '/basis-types/type-aliases' },

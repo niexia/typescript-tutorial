@@ -42,8 +42,13 @@ export default {
       {
         text: 'Control Flow Statements',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'if else', link: '/control-flow-statements/typescript-if-else' },
+          { text: 'switch case', link: '/control-flow-statements/typescript-switch-case' },
+          { text: 'for', link: '/control-flow-statements/typescript-for' },
+          { text: 'while', link: '/control-flow-statements/typescript-while' },
+          { text: 'do while', link: '/control-flow-statements/typescript-do-while' },
+          { text: 'break', link: '/control-flow-statements/typescript-break' },
+          { text: 'continue', link: '/control-flow-statements/typescript-continue' },
         ]
       },
       {

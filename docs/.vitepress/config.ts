@@ -54,8 +54,12 @@ export default {
       {
         text: 'Functions',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Functions', link: '/functions/typescript-functions' },
+          { text: 'Functions Types', link: '/functions/typescript-function-types' },
+          { text: 'Optional Parameters', link: '/functions/typescript-default-parameters' },
+          { text: 'Default Parameters', link: '/functions/typescript-optional-parameters' },
+          { text: 'Rest Parameters', link: '/functions/typescript-rest-parameters' },
+          { text: 'Function Overloading', link: '/functions/typescript-function-overloadings' },
         ]
       },
       {

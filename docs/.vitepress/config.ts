@@ -56,8 +56,8 @@ export default {
         items: [
           { text: 'Functions', link: '/functions/typescript-functions' },
           { text: 'Functions Types', link: '/functions/typescript-function-types' },
-          { text: 'Optional Parameters', link: '/functions/typescript-default-parameters' },
-          { text: 'Default Parameters', link: '/functions/typescript-optional-parameters' },
+          { text: 'Optional Parameters', link: '/functions/typescript-optional-parameters' },
+          { text: 'Default Parameters', link: '/functions/typescript-default-parameters' },
           { text: 'Rest Parameters', link: '/functions/typescript-rest-parameters' },
           { text: 'Function Overloading', link: '/functions/typescript-function-overloadings' },
         ]

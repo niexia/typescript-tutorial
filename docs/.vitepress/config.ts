@@ -84,8 +84,10 @@ export default {
       {
         text: 'Advanced Types',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Intersection Types', link: '/advanced-types/typescript-intersection-types' },
+          { text: 'Type Guards', link: '/advanced-types/typescript-type-guards' },
+          { text: 'Type Casting', link: '/advanced-types/type-casting' },
+          { text: 'Type Assertions', link: '/advanced-types/type-assertions' },
         ]
       },
       {

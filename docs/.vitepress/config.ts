@@ -63,6 +63,18 @@ export default {
         ]
       },
       {
+        text: 'Classes',
+        items: [
+          { text: 'Classes', link: '/class/typescript-class' },
+          { text: 'Access Modifiers', link: '/class/typescript-access-modifiers' },
+          { text: 'Readonly Properties', link: '/class/typescript-readonly' },
+          { text: 'Getters and Setters', link: '/class/typescript-getters-setters' },
+          { text: 'Inheritances', link: '/class/typescript-inheritance' },
+          { text: 'Static Methods and Properties', link: '/class/typescript-static-methods-and-properties' },
+          { text: 'Abstract Classes', link: '/class/typescript-abstract-classes' },
+        ]
+      },
+      {
         text: 'Interfaces',
         items: [
           { text: 'Introduction', link: '/introduction' },

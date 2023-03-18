@@ -77,8 +77,8 @@ export default {
       {
         text: 'Interfaces',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'interfaces', link: '/interfaces/typescript-interface' },
+          { text: 'Extending Interfaces', link: '/interfaces/typescript-extend-interface' },
         ]
       },
       {

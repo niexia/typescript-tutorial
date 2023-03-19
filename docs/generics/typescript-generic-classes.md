@@ -41,7 +41,7 @@ class className<T extends TypeA>{
 - Push：将元素推入堆栈。
 - Pop：从堆栈弹出元素。
 
-以下显示了一个完整的泛型 Stack 类称为 Stack<T>：
+以下显示了一个完整的泛型 Stack 类称为 Stack\<T\>：
 
 ```ts
 class Stack<T> {

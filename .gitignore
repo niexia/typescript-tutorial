@@ -2,7 +2,7 @@
 node_modules
 
 # vuepress build output
-.vuepress/dist
+docs/.vitepress/dist
 
 # cache
 **/.vitepress/cache

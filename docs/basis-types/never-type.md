@@ -34,7 +34,7 @@ let loop = function forever() {
 
 **如果你看到一个函数的返回类型是 `never`，那么你应该确保这不是你想做的事情。**
 
-当你通过一个永远不能为真的[类型守卫 (type guard)](todo)来缩小变量的类型时，它也可以获得 `never` 类型。
+当你通过一个永远不能为真的[类型守卫 (type guard)](../advanced-types/typescript-type-guards)来缩小变量的类型时，它也可以获得 `never` 类型。
 
 例如，如果没有 `never` 类型，下面的函数会引起错误，因为不是所有的代码路径都会返回一个值：
 

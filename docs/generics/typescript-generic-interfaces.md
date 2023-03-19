@@ -61,7 +61,6 @@ interface Collection<T> {
     add(o: T): void;
     remove(o: T): void;
 }
-
 ```
 
 这个 `List<T>` 泛型类实现了 `Collection<T>` 泛型接口：
@@ -85,7 +84,7 @@ class List<T> implements Collection<T>{
 
 通过 `List<T>` 类，你可以创建各种类型（例如数字或字符串）的值列表。
 
-例如，以下展示了如何使用 List<T> 泛型类来创建一个数字列表：
+例如，以下展示了如何使用 List\<T\> 泛型类来创建一个数字列表：
 
 ```ts
 let list = new List<number>();

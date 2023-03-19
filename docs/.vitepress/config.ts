@@ -1,6 +1,10 @@
 export default {
   title: 'typescript tutorial',
-  description: 'Just Start TypeScript.',
+  description: 'Just Start TypeScript - TypeScript 教程',
+  base: '/typescript-tutorial/',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico'}],
+  ],
   themeConfig: {
     nav: [
       // { text: 'Challenge', link: '/challenge/' },

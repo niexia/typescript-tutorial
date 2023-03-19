@@ -4,7 +4,7 @@
 
 ## TypeScript 泛型类介绍
 
-一个泛型类有一个泛型的参数列表，在角括号 `<>` 中，紧随类的名称：
+一个泛型类有一个泛型的参数列表，在尖括号 `<>` 中，紧随类的名称：
 
 ```ts
 className<T>{
@@ -34,7 +34,7 @@ class className<T extends TypeA>{
 
 在这个例子中，我们将开发一个泛型 Stack 类。
 
-栈是一种基于后进先出（或 LIFO）原则工作的数据结构。这意味着您放入堆栈中的第一个元素是您可以从堆栈中获取的最后一个元素。
+栈是一种基于后进先出（或 LIFO）原则工作的数据结构。这意味着你放入堆栈中的第一个元素是你可以从堆栈中获取的最后一个元素。
 
 通常，堆栈具有大小。默认情况下，它为空。堆栈有两个主要操作：
 
@@ -86,7 +86,7 @@ function randBetween(low: number, high: number): number {
 }
 ```
 
-现在，您可以使用 `randBetween()` 函数生成随机数字并将其推入数字堆栈中：
+现在，你可以使用 `randBetween()` 函数生成随机数字并将其推入数字堆栈中：
 
 ```ts
 let numbers = new Stack<number>(5);
@@ -127,7 +127,7 @@ Pop 2 from the stack.
 Pop 3 from the stack.
 ```
 
-同样地，您可以创建一个字符串的堆栈。例如：
+同样地，你可以创建一个字符串的堆栈。例如：
 
 ```ts
 let words = 'The quick brown fox jumps over the lazy dog'.split(' ');
@@ -150,4 +150,4 @@ while (!wordStack.isEmpty()) {
 - 第三，将单词数组的元素推入堆栈。
 - 最后，从堆栈中弹出单词直到它为空为止。
 
-在本教程中，您已经学会了如何在 TypeScript 中开发泛型类。
+在本教程中，你已经学会了如何在 TypeScript 中开发泛型类。

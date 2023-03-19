@@ -1,6 +1,6 @@
 # TypeScript do while
 
-摘要：在本教程中，您将学习如何使用 `do...while` 语句创建一个循环，直到条件计算为 `false` 才停止。
+摘要：在本教程中，你将学习如何使用 `do...while` 语句创建一个循环，直到条件计算为 `false` 才停止。
 
 ## TypeScript do...while 语句介绍
 

@@ -1,6 +1,6 @@
 # TypeScript Generic Constraints
 
-摘要：在本教程中，您将学习 TypeScript 中的通用约束。
+摘要：在本教程中，你将学习 TypeScript 中的通用约束。
 
 ## TypeScript 中通用约束的介绍
 
@@ -34,7 +34,7 @@ console.log(result);
 
 它完美地工作。
 
-`merge()` 函数需要两个对象。**但是，它不会阻止您像这样传递非对象**：
+`merge()` 函数需要两个对象。**但是，它不会阻止你像这样传递非对象**：
 
 ```ts
 let person = merge(
@@ -87,7 +87,7 @@ Argument of type '25' is not assignable to parameter of type 'object'.
 
 ## 在泛型约束中使用类型参数
 
-TypeScript 允许您声明一个由另一个类型参数约束的类型参数。
+TypeScript 允许你声明一个由另一个类型参数约束的类型参数。
 
 以下 `prop()` 函数接受一个对象和一个属性名称。它返回属性的值：
 
@@ -105,7 +105,7 @@ Type 'K' cannot be used to index type 'T'.
 
 ```
 
-**为了解决这个错误，您需要添加一个约束条件到 K 上，以确保它是 T 的 key**，如下所示：
+**为了解决这个错误，你需要添加一个约束条件到 K 上，以确保它是 T 的 key**，如下所示：
 
 ```ts
 function prop<T, K extends keyof T>(obj: T, key: K) {

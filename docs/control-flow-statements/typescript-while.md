@@ -4,7 +4,7 @@
 
 ## TypeScript while 语句介绍
 
-`while` 语句允许您创建一个循环，只要条件为 `true`，就执行一块代码。
+`while` 语句允许你创建一个循环，只要条件为 `true`，就执行一块代码。
 
 以下显示了 TypeScript while 语句的语法：
 
@@ -35,7 +35,7 @@ while(condition) {
 }
 ```
 
-如果您想循环多次运行循环，应使用 TypeScript `for` 语句。
+如果你想循环多次运行循环，应使用 TypeScript `for` 语句。
 
 ## TypeScript while 语句示例
 

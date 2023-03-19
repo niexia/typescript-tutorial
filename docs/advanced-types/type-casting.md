@@ -42,7 +42,7 @@ console.log(input.value);
 let enteredText = (input as HTMLInputElement).value;
 ```
 
-注意，`HTMLInputElement` 类型扩展了 `HTMLElement` 类型，该类型扩展了 `Element` 类型。当您将 `HTMLElement` 强制转换为 `HTMLInputElement` 时，这种类型转换也称为向下转换（down casting）。
+注意，`HTMLInputElement` 类型扩展了 `HTMLElement` 类型，该类型扩展了 `Element` 类型。当你将 `HTMLElement` 强制转换为 `HTMLInputElement` 时，这种类型转换也称为向下转换（down casting）。
 
 还可以向下转换。比如说：
 
@@ -62,7 +62,7 @@ let b = a as typeB;
 
 ## 使用 <> 运算符进行类型转换
 
-除了使用 `as` 关键字外，您还可以使用 `<>` 运算符进行类型转换。例如：
+除了使用 `as` 关键字外，你还可以使用 `<>` 运算符进行类型转换。例如：
 
 ```ts
 let input = <HTMLInputElement>document.querySelector('input[type="text"]');
@@ -79,5 +79,5 @@ let b = <typeB>a;
 
 ## 总结
 
-- 类型转换允许您将一个变量从一种类型转换为另一种类型。
+- 类型转换允许你将一个变量从一种类型转换为另一种类型。
 - 使用 `as` 关键字或 `<>` 运算符进行类型转换。

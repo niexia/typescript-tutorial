@@ -10,7 +10,7 @@
 expression as targetType
 ```
 
-**类型断言也称为类型缩小。它允许您从[联合类型](../basis-types/union-type)中缩小类型**。让我们看下面这个简单的函数：
+**类型断言也称为类型缩小。它允许你从[联合类型](../basis-types/union-type)中缩小类型**。让我们看下面这个简单的函数：
 
 ```ts
 function getNetPrice(price: number, discount: number, format: boolean): number | string {
@@ -53,7 +53,7 @@ console.log(netPrice);
 
 ## 另一种类型断言语法
 
-你也可以使用角括号语法<>来断言一个类型，像这样：
+你也可以使用尖括号语法<>来断言一个类型，像这样：
 
 ```ts
 <targetType> value
@@ -65,7 +65,7 @@ console.log(netPrice);
 let netPrice = <number>getNetPrice(100, 0.05, false);
 ```
 
-注意，**你不能在某些库中使用角括号语法 `<>`**，例如 React。出于这个原因，你应该使用 `as` 关键字进行类型断言。
+注意，**你不能在某些库中使用尖括号语法 `<>`**，例如 React。出于这个原因，你应该使用 `as` 关键字进行类型断言。
 
 ## 总结
 

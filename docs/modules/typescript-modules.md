@@ -1,6 +1,6 @@
 # TypeScript Modules
 
-摘要：在本教程中，您将学习有关 TypeScript 模块的知识以及如何使用它们来构建代码结构。
+摘要：在本教程中，你将学习有关 TypeScript 模块的知识以及如何使用它们来构建代码结构。
 
 ## TypeScript 模块介绍
 
@@ -40,7 +40,7 @@ export { Validator };
 
 ```
 
-TypeScript 还允许您为模块消费者重命名声明，如下所示：
+TypeScript 还允许你为模块消费者重命名声明，如下所示：
 
 ```ts
 interface Validator {

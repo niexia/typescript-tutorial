@@ -140,7 +140,7 @@ npm install --g nodemon concurrently
 
 这个 `"start": "concurrently npm:start:*"` 运行所有以 `npm:start:*` 开头的命令，执行上述 `start:build` 和 `start:run` 命令。
 
-由于 `app.js` 将是 Node.js 程序的入口点，您还需要更改 `package.json` 文件中以下选项为 `app.js`：
+由于 `app.js` 将是 Node.js 程序的入口点，你还需要更改 `package.json` 文件中以下选项为 `app.js`：
 
 从：
 
@@ -160,6 +160,6 @@ npm install --g nodemon concurrently
 npm start
 ```
 
-为了验证配置，您需要在 `app.ts` 文件中更改一些代码。然后您将在控制台中看到输出结果。
+为了验证配置，你需要在 `app.ts` 文件中更改一些代码。然后你将在控制台中看到输出结果。
 
-通过本教程，您已经学会如何为 Node.js 项目设置 TypeScript 的开发工作流程。
+通过本教程，你已经学会如何为 Node.js 项目设置 TypeScript 的开发工作流程。

@@ -182,7 +182,7 @@ class Person {
 - getter 方法返回名字（first name）和姓氏（last name）的拼接字符串。
 - setter 方法接受一个格式为 `first last` 的字符串作为全名，并将第一部分赋值给 firstName 属性，第二部分赋值给 lastName 属性。
 
-现在，您可以像访问常规类属性一样访问 `fullname` 的 setter 和 getter：
+现在，你可以像访问常规类属性一样访问 `fullname` 的 setter 和 getter：
 
 ```ts
 let person = new Person();

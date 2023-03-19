@@ -136,7 +136,7 @@ function signContract(partner: BusinessPartner) : string {
 
 ## 用户定义的类型守卫
 
-用户定义的类型守卫允许您定义一个类型守卫或帮助 TypeScript 在你使用函数时推断出一种类型。
+用户定义的类型守卫允许你定义一个类型守卫或帮助 TypeScript 在你使用函数时推断出一种类型。
 
 用户定义的类型守卫函数是一个简单地返回 `arg is aType` 的函数。例如：
 

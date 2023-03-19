@@ -7,7 +7,7 @@
 
 TypeScript 函数是可读性、可维护性和可重用性代码的构建块。
 
-与 JavaScript 一样，您可以使用 `function` 关键字在 TypeScript 中声明函数：
+与 JavaScript 一样，你可以使用 `function` 关键字在 TypeScript 中声明函数：
 
 ```ts
 function name(parameter: type, parameter:type,...): returnType {
@@ -16,7 +16,7 @@ function name(parameter: type, parameter:type,...): returnType {
 
 ```
 
-不同于 JavaScript，**TypeScript 允许您在函数的参数和返回值中使用[类型注解](../basis-types/type-annotations)**。
+不同于 JavaScript，**TypeScript 允许你在函数的参数和返回值中使用[类型注解](../basis-types/type-annotations)**。
 
 让我们看下面的 `add()` 函数示例：
 
@@ -61,7 +61,7 @@ function echo(message: string): void {
 
 **空值会阻止函数内部的代码返回一个值，并阻止调用代码将函数的结果分配给一个变量。**
 
-当您没有注释返回类型时，TypeScript 将尝试推断出适当的类型。例如：
+当你没有注释返回类型时，TypeScript 将尝试推断出适当的类型。例如：
 
 ```ts
 function add(a: number, b: number) {

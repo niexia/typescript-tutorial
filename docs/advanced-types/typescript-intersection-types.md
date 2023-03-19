@@ -20,7 +20,7 @@ type typeAB = typeA & typeB;
 let varName = typeA | typeB; // union type
 ```
 
-假设您有三个接口：`BusinessPartner`，`Identity`和 `Contact`：
+假设你有三个接口：`BusinessPartner`，`Identity`和 `Contact`：
 
 ```ts
 interface BusinessPartner {

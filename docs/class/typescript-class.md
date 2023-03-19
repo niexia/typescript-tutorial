@@ -4,9 +4,9 @@
 
 ## TypeScript 类的介绍
 
-JavaScript 没有像 Java 和 C# 等其他编程语言那样的类概念。在 ES5 中，您可以使用构造函数和原型继承来创建一个“类”。
+JavaScript 没有像 Java 和 C# 等其他编程语言那样的类概念。在 ES5 中，你可以使用构造函数和原型继承来创建一个“类”。
 
-例如，要创建一个具有三个属性 `ssn`、`firstName` 和 `lastName` 的 `Person` 类，您可以使用以下构造函数：
+例如，要创建一个具有三个属性 `ssn`、`firstName` 和 `lastName` 的 `Person` 类，你可以使用以下构造函数：
 
 ```ts
 function Person(ssn, firstName, lastName) {
@@ -16,7 +16,7 @@ function Person(ssn, firstName, lastName) {
 }
 ```
 
-接下来，您可以定义一个原型方法，通过连接名字和姓氏来获取人的全名，就像这样：
+接下来，你可以定义一个原型方法，通过连接名字和姓氏来获取人的全名，就像这样：
 
 ```ts
 Person.prototype.getFullName = function () {
@@ -100,7 +100,7 @@ class Person {
 }
 ```
 
-当您为属性、构造函数和方法注解类型时，TypeScript 编译器将执行相应的类型检查。
+当你为属性、构造函数和方法注解类型时，TypeScript 编译器将执行相应的类型检查。
 
 例如，你不能用 `number` 来初始化 ssn。下面的代码将导致错误：
 

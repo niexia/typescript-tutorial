@@ -39,7 +39,7 @@ interface Pair<K, V> {
 }
 ```
 
-现在，您可以使用 Pair 接口来定义任何类型的键/值对。例如：
+现在，你可以使用 Pair 接口来定义任何类型的键/值对。例如：
 
 ```ts
 let month: Pair<string, number> = {
@@ -83,7 +83,7 @@ class List<T> implements Collection<T>{
 
 ```
 
-通过 `List<T>` 类，您可以创建各种类型（例如数字或字符串）的值列表。
+通过 `List<T>` 类，你可以创建各种类型（例如数字或字符串）的值列表。
 
 例如，以下展示了如何使用 List<T> 泛型类来创建一个数字列表：
 

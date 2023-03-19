@@ -10,7 +10,7 @@
 - **元素的类型是已知的，而且不需要是相同的。**
 
 
-例如，您可以使用元组来将值表示为 `string` 和 `number` 的对：
+例如，你可以使用元组来将值表示为 `string` 和 `number` 的对：
 
 ```ts
 let skill: [string, number];

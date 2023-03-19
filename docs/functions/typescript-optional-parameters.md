@@ -34,7 +34,7 @@ function multiply(a: number, b: number, c?: number): number {
 
 **可选参数必须在参数列表中的必需参数后面出现。**
 
-例如，如果您将 `b` 参数设为可选，并且 `c` 参数为必需，则 TypeScript 编译器会发出错误：
+例如，如果你将 `b` 参数设为可选，并且 `c` 参数为必需，则 TypeScript 编译器会发出错误：
 
 ```ts
 function multiply(a: number, b?: number, c: number): number {

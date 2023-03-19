@@ -63,7 +63,7 @@ npm install -g ts-node
 要安装 VS 代码，你要按照以下步骤：
 
 - 导航到 VS Code 的[下载页面](https://code.visualstudio.com/download)。
-- 下载适合您的操作系统（Windows、macOS 或 Linux）的最新版本的 VS Code。
+- 下载适合你的操作系统（Windows、macOS 或 Linux）的最新版本的 VS Code。
 - 执行下载的软件包或安装程序文件，启动安装向导。安装过程也是非常简单明了的。
 - 启动 VS Code。
 

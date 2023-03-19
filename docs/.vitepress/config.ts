@@ -93,8 +93,10 @@ export default {
       {
         text: 'Generics',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Typescript Generics', link: '/generics/typescript-generics' },
+          { text: 'Generic Constraints', link: '/generics/typescript-generic-constraints' },
+          { text: 'Generic Classes', link: '/generics/typescript-generic-classes' },
+          { text: 'Generic Interfaces', link: '/generics/typescript-generic-interfaces' },
         ]
       },
       {

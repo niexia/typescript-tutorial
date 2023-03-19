@@ -108,8 +108,7 @@ export default {
       {
         text: 'TypeScript in Node.js',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Node.js TypeScript', link: '/type-in-nodejs/nodejs-typescript' },
         ]
       }
     ],

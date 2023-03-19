@@ -54,55 +54,55 @@ export default {
       {
         text: 'Functions',
         items: [
-          { text: 'Functions', link: '/functions/typescript-functions' },
-          { text: 'Functions Types', link: '/functions/typescript-function-types' },
-          { text: 'Optional Parameters', link: '/functions/typescript-optional-parameters' },
-          { text: 'Default Parameters', link: '/functions/typescript-default-parameters' },
-          { text: 'Rest Parameters', link: '/functions/typescript-rest-parameters' },
-          { text: 'Function Overloading', link: '/functions/typescript-function-overloadings' },
+          { text: '函数', link: '/functions/typescript-functions' },
+          { text: '函数类型', link: '/functions/typescript-function-types' },
+          { text: '可选参数', link: '/functions/typescript-optional-parameters' },
+          { text: '默认参数', link: '/functions/typescript-default-parameters' },
+          { text: 'Rest 参数', link: '/functions/typescript-rest-parameters' },
+          { text: '函数重载', link: '/functions/typescript-function-overloadings' },
         ]
       },
       {
         text: 'Classes',
         items: [
-          { text: 'Classes', link: '/class/typescript-class' },
-          { text: 'Access Modifiers', link: '/class/typescript-access-modifiers' },
-          { text: 'Readonly Properties', link: '/class/typescript-readonly' },
-          { text: 'Getters and Setters', link: '/class/typescript-getters-setters' },
-          { text: 'Inheritances', link: '/class/typescript-inheritance' },
-          { text: 'Static Methods and Properties', link: '/class/typescript-static-methods-and-properties' },
-          { text: 'Abstract Classes', link: '/class/typescript-abstract-classes' },
+          { text: '类', link: '/class/typescript-class' },
+          { text: '访问修饰符', link: '/class/typescript-access-modifiers' },
+          { text: '只读属性', link: '/class/typescript-readonly' },
+          { text: 'Getters 和 Setters', link: '/class/typescript-getters-setters' },
+          { text: '继承', link: '/class/typescript-inheritance' },
+          { text: '静态方法和属性', link: '/class/typescript-static-methods-and-properties' },
+          { text: '抽象类', link: '/class/typescript-abstract-classes' },
         ]
       },
       {
         text: 'Interfaces',
         items: [
-          { text: 'interfaces', link: '/interfaces/typescript-interface' },
-          { text: 'Extending Interfaces', link: '/interfaces/typescript-extend-interface' },
+          { text: '接口', link: '/interfaces/typescript-interface' },
+          { text: '扩展接口', link: '/interfaces/typescript-extend-interface' },
         ]
       },
       {
         text: 'Advanced Types',
         items: [
-          { text: 'Intersection Types', link: '/advanced-types/typescript-intersection-types' },
-          { text: 'Type Guards', link: '/advanced-types/typescript-type-guards' },
-          { text: 'Type Casting', link: '/advanced-types/type-casting' },
-          { text: 'Type Assertions', link: '/advanced-types/type-assertions' },
+          { text: '交叉类型', link: '/advanced-types/typescript-intersection-types' },
+          { text: '类型守卫', link: '/advanced-types/typescript-type-guards' },
+          { text: '类型转换', link: '/advanced-types/type-casting' },
+          { text: '类型断言', link: '/advanced-types/type-assertions' },
         ]
       },
       {
         text: 'Generics',
         items: [
-          { text: 'Typescript Generics', link: '/generics/typescript-generics' },
-          { text: 'Generic Constraints', link: '/generics/typescript-generic-constraints' },
-          { text: 'Generic Classes', link: '/generics/typescript-generic-classes' },
-          { text: 'Generic Interfaces', link: '/generics/typescript-generic-interfaces' },
+          { text: 'Typescript 泛型', link: '/generics/typescript-generics' },
+          { text: '泛型约束', link: '/generics/typescript-generic-constraints' },
+          { text: '泛型类', link: '/generics/typescript-generic-classes' },
+          { text: '泛型接口', link: '/generics/typescript-generic-interfaces' },
         ]
       },
       {
         text: 'Modules',
         items: [
-          { text: 'TypeScript Modules', link: '/modules/typescript-modules' },
+          { text: 'TypeScript 模块', link: '/modules/typescript-modules' },
         ]
       },
       {

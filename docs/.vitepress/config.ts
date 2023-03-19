@@ -102,8 +102,7 @@ export default {
       {
         text: 'Modules',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'TypeScript Modules', link: '/modules/typescript-modules' },
         ]
       },
       {

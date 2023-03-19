@@ -68,11 +68,11 @@ npm install -g ts-node
 - 启动 VS Code。
 
 你会看到 VS 代码，如下图所示。
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/vs-code.png"/>
+<img src="/vs-code.png"/>
 
 要安装 Live Server 扩展插件，你要按照以下步骤。
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/Live-Server.png"/>
+<img src="/Live-Server.png"/>
 
 - 单击 "扩展 "选项卡，找到 VS Code 的扩展。
 - 输入 Live Server 来搜索它。

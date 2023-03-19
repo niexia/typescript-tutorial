@@ -153,11 +153,11 @@ console.log(`The product ${product.Name} costs $${product.price}`);
 
 代码编辑器在 `Name` 属性上突出显示了以下错误：
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/09/why-typescript-error.png"/>
+<img src="/why-typescript-error.png"/>
 
 而当你把鼠标光标悬停在错误上时，你会看到一个提示，帮助你解决这个问题：
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/09/why-typescript-hint.png"/>
+<img src="/why-typescript-hint.png"/>
 
 为了解决以错误的顺序传递参数的问题，你可以明确地给函数参数分配类型：
 
@@ -174,7 +174,7 @@ const product = getProduct(1);
 showProduct(product.price, product.name);
 ```
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/09/why-typescript-error-in-function-arguments.png"/>
+<img src="/why-typescript-error-in-function-arguments.png"/>
 
 ## 总结
 

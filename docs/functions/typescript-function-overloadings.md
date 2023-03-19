@@ -59,7 +59,7 @@ function add(a: any, b: any): any {
 
 现在，当你调用 `add()` 函数时，代码编辑器会提示有一个可用的重载函数，如下图所示：
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/06/typescript-function-overloadings.png" />
+<img src="/typescript-function-overloadings.png" />
 
 ## 带有可选参数的函数重载
 

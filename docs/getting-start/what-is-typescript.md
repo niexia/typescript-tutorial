@@ -12,7 +12,7 @@ TypeScript 构建在 JavaScript 的基础上。首先，你编写 TypeScript 代
 
 TypeScript 文件使用 `.ts` 扩展名，而不是 JavaScript 文件的 `.js` 扩展名。
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/what-is-typescript-compiler.png"/>
+<img src="/what-is-typescript-compiler.png"/>
 
 TypeScript 使用 JavaScript 的语法，并增加了额外的语法来支持 Types。
 
@@ -20,7 +20,7 @@ TypeScript 使用 JavaScript 的语法，并增加了额外的语法来支持 Ty
 
 下图显示了 TypeScript 和 JavaScript 之间的关系。
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/what-is-typescript-typescript-and-js.png" />
+<img src="/what-is-typescript-typescript-and-js.png" />
 
 ## 为什么选择 TypeScript
 

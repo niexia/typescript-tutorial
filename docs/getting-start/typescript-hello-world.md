@@ -19,15 +19,15 @@ console.log(message);
 
 第五，通过使用键盘快捷键<code>Ctrl+`</code>或按照菜单终端>新终端，在 VS 代码中启动一个新终端。
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/TypeScript-Hello-World-Launch-Terminal.png" />
+<img src="/TypeScript-Hello-World-Launch-Terminal.png" />
 
 第六，在终端上输入以下命令来编译`app.ts`文件。
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/TypeScript-Hello-World-compile-TS-file.png" />
+<img src="/TypeScript-Hello-World-compile-TS-file.png" />
 
 如果一切正常，你会看到一个被 TypeScript 编译器生成的名为 app.js 的新文件。
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/TypeScript-Hello-World-Output-file.png" />
+<img src="/TypeScript-Hello-World-Output-file.png" />
 
 要在 node.js 中运行 app.js 文件，你可以使用以下命令。
 
@@ -80,11 +80,11 @@ tsc app.ts
 
 第四，通过鼠标右键单击 index.html 并选择 Open with Live Server，从 VS Code 中打开 Live Server。
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/TypeScript-Hello-World-Live-Server.png"/>
+<img src="/TypeScript-Hello-World-Live-Server.png"/>
 
 Live Server 将打开 index.html 并展示下面信息：
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/TypeScript-Hello-World-Web-Browser.png"/>
+<img src="/TypeScript-Hello-World-Web-Browser.png"/>
 
 要做些改变，你需要编辑 app.ts 文件。比如说：
 

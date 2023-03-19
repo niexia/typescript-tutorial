@@ -12,7 +12,7 @@
 
 其次，在 `nodets` 下创建两个子目录，称为 `build` 和 `src`，像这样：
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/09/nodejs-typescript-directory-structure.png"/>
+<img src="/nodejs-typescript-directory-structure.png"/>
 
 你将在 `src` 目录下存储 `TypeScript` 代码。
 
@@ -57,7 +57,7 @@ tsc -init
 console.log('Node.js TypeScript');
 ```
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/09/nodejs-typescript-app.ts_.png" />
+<img src="/nodejs-typescript-app.ts_.png" />
 
 然后运行以下命令来执行 TypeScript 编译器。它将编译存储在 `src` 目录中的所有文件：
 
@@ -67,7 +67,7 @@ tsc
 
 如果配置正确，你会看到在 `./build` 目录下生成的 `app.js`：
 
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/09/nodejs-typescript-app.js.png"/>
+<img src="/nodejs-typescript-app.js.png"/>
 
 要运行 app.js，你要导航到 `build` 目录并执行以下命令：
 

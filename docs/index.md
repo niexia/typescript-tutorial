@@ -106,7 +106,7 @@ TypeScript 是一种开源的编程语言，建立在 JavaScript 之上。它可
 - [TypeScript 模块](./modules/typescript-modules) - 向您介绍 TypeScript 中的模块以及如何在其他模块中使用它们。
 :::
 
-::: details TypeScript in Node.js
+::: details 第 10 节 TypeScript in Node.js
 
 - [Node.js TypeScript](./type-in-nodejs/nodejs-typescript) - 如何设置在 Node.js 项目中使用 TypeScript 的开发环境。
 :::

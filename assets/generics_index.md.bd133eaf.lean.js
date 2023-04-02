@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./app.cde3d90f.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"generics/index.md"}'),r={name:"generics/index.md"};function a(s,c,o,i,d,p){return n(),t("div")}const f=e(r,[["render",a]]);export{m as __pageData,f as default};

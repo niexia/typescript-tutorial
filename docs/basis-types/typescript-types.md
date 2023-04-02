@@ -4,7 +4,7 @@
 
 ## 在 TypeScript 中的一个类型是什么
 
-在 TypeScript 中，**类型是一种方便的方式，用于引用值具有的不同属性和函数。**（a type is a convenient way to refer to the different **properties** and **functions** that a **value** has.）
+在 TypeScript 中，**类型是一个值所拥有的不同属性和函数的便捷引用方式。**（a type is a convenient way to refer to the different **properties** and **functions** that a **value** has.）
 
 值是你可以分配给一个变量的任何东西，例如，一个数字、一个字符串、一个数组、一个对象和一个函数。
 
@@ -31,7 +31,7 @@ console.log('Hello'.toLocaleUpperCase()); // HELLO
 
 如果你看着`“Hello”`这个值，并通过列出其属性和方法来描述它，那将是很不方便的。
 
-一种更简短的方法是为值分配一个类型。在这个例子中，你说`“Hello”`是一个字符串。然后，你就知道可以使用字符串的属性和方法来处理值`“Hello”`。
+**一种更简短的方法是为值分配一个类型**。在这个例子中，你说`“Hello”`是一个字符串。然后，你就知道可以使用字符串的属性和方法来处理值`“Hello”`。
 
 **总之，在 TypeScript 中：**
 

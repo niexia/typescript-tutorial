@@ -4,7 +4,7 @@
 
 ## TypeScript object type 介绍
 
-**TypeScript 的 object 类型表示所有不在原始类型（primitive types）中的值。**
+**TypeScript 的 object 类型表示所有不在基本类型（primitive types）中的值。**
 
 以下是 TypeScript 中的基本类型：
 

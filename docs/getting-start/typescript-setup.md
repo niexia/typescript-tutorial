@@ -81,5 +81,9 @@ npm install -g ts-node
 在本教程中，你已经学会了如何安装一个用于 TypeScript 的开发环境。
 
 :::tip
+- [node.js REPL](https://nodejs.dev/zh-cn/learn/how-to-use-the-nodejs-repl/)：指 Node.js 的交互式解释器（Read-Eval-Print Loop）。它允许您在命令行界面中输入 JavaScript 代码并立即获得结果。使用 REPL，您可以快速尝试和测试一些代码片段，而不必创建一个完整的 JavaScript 文件并运行它。此外，您还可以在 REPL 中访问 Node.js 内置模块和第三方模块的函数和属性。
+
+- [ts-node](https://www.npmjs.com/package/ts-node)：是一个 Node.js 库，它允许您直接在 Node.js 中运行 TypeScript 代码而无需先将其编译为 JavaScript。ts-node 使用 TypeScript 编译器将 TypeScript 代码编译成 JavaScript，并将其加载到 Node.js 中进行执行。使用 ts-node，您可以更快地编写和测试 TypeScript 代码，同时无需手动编译。它还提供了一些有用的功能，例如重新加载代码更改并记录错误堆栈跟踪，以帮助您更轻松地调试代码。
+
 更多关于在 VS Code 使用 TypeScript 的教程可以查看 [TypeScript tutorial in Visual Studio Code](https://code.visualstudio.com/docs/typescript/typescript-tutorial#_debugging)
 :::

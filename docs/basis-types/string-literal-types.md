@@ -19,7 +19,7 @@ click = 'click'; // valid
 然而，如果你将另外一个字符串字面量赋值 `click` 变量时，TypeScript 编译器将发出一个错误，比如：
 
 ```ts
-click = 'click'; // valid
+click = 'dblclick';
 ```
 
 Error：

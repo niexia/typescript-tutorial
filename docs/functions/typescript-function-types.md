@@ -62,7 +62,7 @@ add = function (x: string, y: string): number {
 
 TypeScript 编译器可以在等式的一侧有类型时推断出函数类型。这种形式的[类型推断](../basis-types/type-inference)称为上下文类型推断（contextual typing）。例如：
 
-<image src="https://www.typescripttutorial.net/wp-content/uploads/2020/06/TypeScript-Function-Type-Example.png" />
+<img src="/TypeScript-Function-Type-Example.png" />
 
 在这个例子中，`add` 函数将采用类型 `(x: number, y:number) => number`。
 

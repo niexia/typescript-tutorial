@@ -7,8 +7,8 @@ export default {
   ],
   themeConfig: {
     nav: [
-      // { text: 'Challenge', link: '/challenge/' },
       { text: 'playground', link: 'https://www.typescriptlang.org/play' },
+      { text: 'type challenge', link: '/challenge/' },
       { text: 'fe-tutorial', link: 'https://niexia.github.io/fe-tutorial/javascript/programming-language/' },
       { text: 'blog', link: 'https://niexia.github.io' },
     ],

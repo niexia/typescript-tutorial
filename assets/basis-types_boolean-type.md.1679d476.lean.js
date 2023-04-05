@@ -1,0 +1,1 @@
+import{_ as s,c as e,o as a,a as o}from"./app.066eee89.js";const D=JSON.parse('{"title":"TypeScript Boolean","description":"","frontmatter":{},"headers":[],"relativePath":"basis-types/boolean-type.md"}'),n={name:"basis-types/boolean-type.md"},p=o("",6),l=[p];function t(c,r,i,d,y,_){return a(),e("div",null,l)}const A=s(n,[["render",t]]);export{D as __pageData,A as default};

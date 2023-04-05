@@ -42,7 +42,7 @@ console.log(input.value);
 let enteredText = (input as HTMLInputElement).value;
 ```
 
-注意，`HTMLInputElement` 类型扩展了 `HTMLElement` 类型，该类型扩展了 `Element` 类型。当你将 `HTMLElement` 强制转换为 `HTMLInputElement` 时，这种类型转换也称为向下转换（down casting）。
+注意，`HTMLInputElement` 类型扩展了 `HTMLElement` 类型，该类型扩展了 `Element` 类型。当你将 `HTMLElement` 强制转换为 `HTMLInputElement` 时，这种类型转换也称为**向下转换（down casting）**。
 
 还可以向下转换。比如说：
 

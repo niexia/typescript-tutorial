@@ -15,7 +15,7 @@ expression as targetType
 ```ts
 function getNetPrice(price: number, discount: number, format: boolean): number | string {
     let netPrice = price * (1 - discount);
-    return format ? `$${netPrice}` : netPrice;
+    return format ? `${netPrice}` : netPrice;
 }
 ```
 

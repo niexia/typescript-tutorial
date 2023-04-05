@@ -1,5 +1,5 @@
 export default {
-  title: 'typescript tutorial',
+  title: '🥤typescript tutorial',
   description: 'Just Start TypeScript - TypeScript 教程',
   base: '/typescript-tutorial/',
   head: [

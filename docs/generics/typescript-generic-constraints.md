@@ -1,8 +1,8 @@
 # TypeScript Generic Constraints
 
-摘要：在本教程中，你将学习 TypeScript 中的通用约束。
+摘要：在本教程中，你将学习 TypeScript 中的泛型约束。
 
-## TypeScript 中通用约束的介绍
+## TypeScript 中泛型约束的介绍
 
 考虑以下示例：
 
@@ -87,7 +87,7 @@ Argument of type '25' is not assignable to parameter of type 'object'.
 
 ## 在泛型约束中使用类型参数
 
-TypeScript 允许你声明一个由另一个类型参数约束的类型参数。
+**TypeScript 允许你声明一个由另一个类型参数约束的类型参数**。
 
 以下 `prop()` 函数接受一个对象和一个属性名称。它返回属性的值：
 
